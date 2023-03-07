@@ -23,7 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:hint="24 hours"
         app:errorEnabled="true"
+        app:placeholderText="00:00"
+        app:hintAnimationEnabled="true"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -31,9 +34,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            android:hint="24 hours"
-            android:textAllCaps="true"
-            android:inputType="time" />
+            android:inputType="time"
+            android:textAllCaps="true" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
